@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+ 
+import { FooterBanner } from "../assets";
 
 const Application = () => {
   return (
@@ -45,7 +47,7 @@ const Application = () => {
             </div>
 
             <figure className="card-banner">
-              <img src="./assets/images/download-banner.png" width="383" height="384" loading="lazy"
+              <img src={FooterBanner} width="383" height="384" loading="lazy"
                 alt="download banner" className="w-100" />
             </figure>
 

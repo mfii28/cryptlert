@@ -42,7 +42,7 @@ const Market = () => {
   }, []);  // Make sure to include an empty dependency array to run the effect only once
 
   return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" id='market'>
     <section className="section market" aria-label="crypto market live price">
       <div className="container">
         <h2 className="h2 section-title text-center">Track Cryptocurrency Prices in Real Time</h2>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { Logo } from "../assets";
 const Footer = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer-brand">
 
       <Link href="#" className="logo">
-        <img src="./assets/images/logo.svg" width="185" height="31" alt="Cryptolert home
+        <img src={Logo} width="185" height="31" alt="Cryptolert home
 " />
       </Link>
 

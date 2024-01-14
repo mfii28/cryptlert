@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+ 
+import { Logo } from "../assets";
 const Header = () => {
   const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
 
@@ -12,14 +13,14 @@ const Header = () => {
     <header className="header" data-header>
       <div className="container">
         <Link to="#" className="logo">
-          <img src="./assets/images/logo.svg" width="185" height="31" alt="Cryptolert home" />
+          <img src={Logo} width="185" height="31" alt="Cryptolert home" />
         </Link>
 
         <nav className={`navbar ${mobileMenuVisible ? 'active' : ''}`} data-navbar>
 
           <div className="navbar-top">
             <Link to="#" className="logo">
-              <img src="./assets/images/logo.svg" width="185" height="31" alt="Coinlert home" />
+              <img src={Logo} width="185" height="31" alt="Coinlert home" />
             </Link>
 
             <button className="nav-close-btn" aria-label="close menu" data-nav-toggler onClick={handleToggleMobileMenu}>
@@ -48,7 +49,7 @@ const Header = () => {
 
         <div className="btn-group">
           <Link to="#" className="btn ghost-btn">Contact Us</Link>
-          <Link to="/coin" className="btn btn-primary">Dashboard</Link>
+          <Link to="/coinlist" className="btn btn-primary">Dashboard</Link>
         </div>
 
         <button className="nav-open-btn" aria-label="open menu" data-nav-toggler onClick={handleToggleMobileMenu}>

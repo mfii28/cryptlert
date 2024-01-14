@@ -28,7 +28,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/coin" element={<App />} />
+        <Route path="/coinlist" element={<App />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>

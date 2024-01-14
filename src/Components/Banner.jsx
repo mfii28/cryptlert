@@ -21,11 +21,11 @@ const Banner = () => {
             </p>
 
             <div className="btn-group">
-              <Link href="#" className="btn btn-primary">
-                Get Started
+              <Link href="/coinlist" className="btn btn-primary">
+               DashBoard
               </Link>
 
-              <Link href="#" className="play-btn">
+              <Link to="#market" className="play-btn">
                 <div className="icon">
                   <ion-icon name="play" aria-hidden="true"></ion-icon>
                 </div>
