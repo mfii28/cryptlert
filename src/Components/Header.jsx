@@ -12,14 +12,14 @@ const Header = () => {
   return (
     <header className="header" data-header>
       <div className="container">
-        <Link to="#" className="logo">
+        <Link to="/" className="logo">
           <img src={Logo} width="185" height="31" alt="Cryptolert home" />
         </Link>
 
         <nav className={`navbar ${mobileMenuVisible ? 'active' : ''}`} data-navbar>
 
           <div className="navbar-top">
-            <Link to="#" className="logo">
+            <Link to="/" className="logo">
               <img src={Logo} width="185" height="31" alt="Coinlert home" />
             </Link>
 
