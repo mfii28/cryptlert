@@ -21,7 +21,7 @@ const Banner = () => {
             </p>
 
             <div className="btn-group">
-              <Link href="/coinlist" className="btn btn-primary">
+              <Link to="/coinlist" className="btn btn-primary">
                DashBoard
               </Link>
 
